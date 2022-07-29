@@ -1,0 +1,63 @@
+body {
+	background: #2C3333;
+	color: white;
+	margin: 0;
+}
+
+.logo {
+	width: 10%;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+}
+
+.nav-bar {
+	background: #000000;
+}
+
+
+.blog-title {
+	display: inline;
+	font-size: 	75px;
+	padding: 30px;
+	padding-left: 60%;
+	color: #5BB318;
+}
+
+ul {
+	display: inline;
+	list-style-type: none;
+	color: #5BB318;
+	align-content: center;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #7DCE13;
+}
+
+li {
+	display: inline;
+	font-size: 30px;
+	padding: 5px 5px;
+}
+
+.nav-list {
+	color: #5BB318;
+}
+
+.main-body {
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+span {
+	font-size: 20px;
+}
+
+p {
+	font-size: 20px;
+}

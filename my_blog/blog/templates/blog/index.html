@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content%}
+	{% for post in object_list %}
+		<img class="logo" src="{{ post.author.profile.image.url }}">
+		<h1><a href="{% url 'blog:detail' post.id %}">{{ post.title }}</a></h1>
+		<span>by <strong><a href="{% url 'blog:user-home' post.author.username %}">{{ post.author|capfirst }}</a></strong> on {{ post.date_posted|date:"F d Y" }}</span>
+		<p>{{ post.content }}</p>
+		<hr size="3">
+	{% endfor %}
+{% endblock %}
